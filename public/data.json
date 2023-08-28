@@ -1,0 +1,60 @@
+{
+    "data":[
+        {
+            "id": 1,
+            "name": "AGOCar",
+            "description": "An android mobile application to view cars specifications, pictures, and reviews. Built with Java(Android) and Firebase",
+            "languages": ["Java", "Firebase", "Android Studio"],
+            "link" : "https://github.com/yihao2000/agocar",
+            "type" : "Android App"
+        },
+        {
+            "id": 2,
+            "name": "OldEgg",
+            "description" : "A NewEgg (Ecommerce) web clone built with NextJS (TypeScript), GoLang, and GraphQL",
+            "languages" : ["Axios", "Go", "GraphQL", "NextJS"],
+            "link" : "https://github.com/yihao2000/OldEgg",
+            "type" : "Web App"
+        },
+        {
+            "id": 3,
+            "name": "GShoes",
+            "description" : "An IOS appllication to view and calculate shoe prices along with the taxes",
+            "languages": ["Swift"],
+            "link" : "https://github.com/yihao2000/gshoes",
+            "type" : "Mobile App"
+        },
+        {
+            "id": 4,
+            "name": "Forest Settler",
+            "description" : "A mountain scenery adventure game created using Unity and C++",
+            "languages": ["C#"],
+            "link" : "https://github.com/yihao2000/forestsettler",
+            "type" : "Game App"
+        },
+        {
+            "id": 5,
+            "name": "Stuck in the Movie",
+            "description" : "A desktop movie theatre management application built using NextJS, MaterialUI, Electron, and Firebase",
+            "languages": ["MaterialUI", "NextJS", "Firebase", "Electron"],
+            "link" : "https://github.com/yihao2000/StuckintheMovie",
+            "type" : "Desktop App"
+        },
+        {
+            "id": 6,
+            "name": "GoShoes",
+            "description" : "A mobile shoes store application built using Dart and C++",
+            "languages": ["Dart", "C++"],
+            "link" : "https://github.com/yihao2000/GoShoesFlutter",
+            "type" : "Mobile App"
+        },
+        {
+            "id": 7,
+            "name": "Andrew Fruit Dictionary",
+            "description" : "A fruit dictionary web application that utilizes public fruit api built using React",
+            "languages": ["ReactJS"],
+            "link" : "https://github.com/yihao2000/ReactJS",
+            "type" : "Web App"
+        }
+    ]
+}

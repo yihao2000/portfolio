@@ -1,69 +1,31 @@
+import {AiFillHome, AiFillCode} from "react-icons/ai"
+import {PiNewspaperClippingFill} from "react-icons/pi"
+
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "Andrew's Portfolio",
+	description: "Get to know me better",
 	navItems: [
 		{
 			label: "Home",
-			href: "/",
+			href: "#first",
 		},
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Resume",
+      href: "#second",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Portfolio",
+      href: "#third",
     },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
-    }
+   
 	],
-	navMenuItems: [
-		{
-			label: "Profile",
-			href: "/profile",
-		},
-		{
-			label: "Dashboard",
-			href: "/dashboard",
-		},
-		{
-			label: "Projects",
-			href: "/projects",
-		},
-		{
-			label: "Team",
-			href: "/team",
-		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
-		},
-	],
+	
 	links: {
-		github: "https://github.com/nextui-org/nextui",
-		twitter: "https://twitter.com/getnextui",
-		docs: "https://nextui.org",
-		discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev"
+		github: "https://github.com/yihao2000",
+		discord: "https://discordapp.com/users/endru2000",
+    	instagram: "https://www.instagram.com/andrewgiovanniw/",
+		linkedin: "https://www.linkedin.com/in/andrew-winoto-26a16b21a/"
 	},
 };
