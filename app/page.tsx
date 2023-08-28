@@ -62,7 +62,13 @@ export default function Home() {
         }}
       >
         <div className="inline-block max-w-lg text-center">
-          <Image src="/self.jpg" radius="full" width={350} height={350} />
+          <Image
+            src="/self.jpg"
+            radius="full"
+            width={350}
+            height={350}
+            alt="Self"
+          />
         </div>
 
         <div className="flex flex-col gap-2 pt-16">
@@ -288,7 +294,7 @@ export default function Home() {
           })}
         </div>
       </section>
-      <script type="text/javascript" src="/static/script.js"></script>
+      <script async type="text/javascript" src="/static/script.js"></script>
     </>
   );
 }

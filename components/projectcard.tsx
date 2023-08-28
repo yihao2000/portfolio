@@ -14,9 +14,9 @@ import { AiFillGithub } from "react-icons/ai";
 import Link from "next/link";
 
 export default function ProjectCard(props: { data: Project }) {
-  useEffect(() => {
-    console.log(props.data);
-  }, []);
+  // useEffect(() => {
+  //   console.log(props.data);
+  // }, []);
   return (
     <Card
       className={clsx(
@@ -49,7 +49,7 @@ export default function ProjectCard(props: { data: Project }) {
         <p>{props.data.description}</p>
         <div className="flex flex-row gap-2 pt-4">
           {props.data.languages.map((x) => {
-            return <Chip>{x}</Chip>;
+            return <Chip key={x}>{x}</Chip>;
           })}
         </div>
       </CardBody>
