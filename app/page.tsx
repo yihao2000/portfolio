@@ -143,22 +143,22 @@ export default function Home() {
         }}
       >
         <div className="flex items-center pt-16 gap-7">
-          <div className="text-6xl inline">Resume </div>
+          <div className="text-6xl inline">Resume</div>
           <Button
             className={clsx(
               styles.darkgloweffect,
-              "dark dark:bg-black-1000 dark:text-white bg-gray-200 text-black inline"
+              "dark dark:bg-black-1000 dark:text-white bg-gray-200 text-black inline text-l"
             )}
             onClick={() => download(FILEURL, FILENAME)}
           >
-            Download My Resume
+            Download Resume
           </Button>
         </div>
         <Divider className="my-2" />
 
         <div className="flex items-center gap-2 pt-4">
           <MdWork size={28} />
-          <div className="text-3xl">Work & Organization Experience</div>
+          <div className="text-3xl">Work & Organization</div>
         </div>
         <div className={styles.timeline}>
           <div className={clsx(styles.checkpoint)}>

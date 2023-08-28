@@ -50,7 +50,7 @@
         },
         {
             "id": 7,
-            "name": "Andrew Fruit Dictionary",
+            "name": "Fruit Dictionary",
             "description" : "A fruit dictionary web application that utilizes public fruit api built using React",
             "languages": ["ReactJS"],
             "link" : "https://github.com/yihao2000/ReactJS",

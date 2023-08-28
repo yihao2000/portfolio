@@ -59,7 +59,7 @@
 
 .timeline{
     margin: 5em auto;
-    margin-top: 1em;
+    margin-top: 4em;
     max-width: 28.15em;
     height: fit-content;
 }
@@ -162,4 +162,10 @@
        transform: translateX(-50%);
        
     }
+}
+
+@media screen and (max-width: 1030px){
+   .second, .third{
+    padding: 3rem;
+   }
 }
