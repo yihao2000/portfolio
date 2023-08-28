@@ -142,7 +142,7 @@ export default function Home() {
           height: "fit-content",
         }}
       >
-        <div className="flex items-center pt-16 gap-7">
+        <div className="flex items-center pt-16 gap-7 md:flex-row">
           <div className="text-6xl inline">Resume</div>
           <Button
             className={clsx(
@@ -151,7 +151,7 @@ export default function Home() {
             )}
             onClick={() => download(FILEURL, FILENAME)}
           >
-            Download Resume
+            Download
           </Button>
         </div>
         <Divider className="my-2" />
