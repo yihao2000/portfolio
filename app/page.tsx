@@ -163,6 +163,27 @@ export default function Home() {
         <div className={styles.timeline}>
           <div className={clsx(styles.checkpoint)}>
             <div className={styles.darkgloweffect}>
+              <h2>Sept 2023 - Present</h2>
+              <span
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "1.5rem",
+                }}
+              >
+                Gopay Student Ambassador
+              </span>
+              <span className="text-blue-cyan block">Gopay</span>
+              <Divider className="my-2" />
+
+              <ul>
+                <li className="list-inside list-disc">
+                  Create marketing content to promote Gopay Application
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className={clsx(styles.checkpoint)}>
+            <div className={styles.darkgloweffect}>
               <h2>Sept 2022 - Present</h2>
               <span
                 style={{
