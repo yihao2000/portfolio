@@ -20,7 +20,7 @@ export default function ProjectCard(props: { data: Project }) {
   return (
     <Card
       className={clsx(
-        "max-w-[400px] hover:cursor-pointer p-2",
+        "max-w-[400px] hover:cursor-pointer p-2 min-w-[400px]",
         styles.zoom,
         styles.gloweffect
       )}
