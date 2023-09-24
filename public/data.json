@@ -55,6 +55,62 @@
             "languages": ["ReactJS"],
             "link" : "https://github.com/yihao2000/ReactJS",
             "type" : "Web App"
+        },
+        {
+            "id": 8,
+            "name": "ChainProjectCo.",
+            "description" : "Network design for ChainProjectCo. case created using Cisco Packet Tracer",
+            "languages": ["Cisco Packet Tracer", "Networking"],
+            "link" : "https://github.com/yihao2000/ChainProjectCo.",
+            "type" : "Computer Network"
+        },
+        {
+            "id": 9,
+            "name": "JustDuIt",
+            "description" : "Shoes store website created using Laravel",
+            "languages": ["Laravel", "PHP"],
+            "link" : "https://github.com/yihao2000/JustDuIt",
+            "type" : "Web App"
+        },
+        {
+            "id": 10,
+            "name": "Deluxe",
+            "description" : "Company internal desktop application created using JavaFX",
+            "languages": ["Java"],
+            "link" : "https://github.com/yihao2000/DeluXeJavaFX",
+            "type" : "Desktop App"
+        },
+        {
+            "id": 10,
+            "name": "Deluxe",
+            "description" : "Company internal desktop application created using JavaFX",
+            "languages": ["Java"],
+            "link" : "https://github.com/yihao2000/DeluXeJavaFX",
+            "type" : "Desktop App"
+        },
+        {
+            "id": 11,
+            "name": "TixID",
+            "description" : "TixID mobile application clone created using Android Studio",
+            "languages": ["Java"],
+            "link" : "https://github.com/yihao2000/tixid",
+            "type" : "Mobile App"
+        },
+        {
+            "id": 12,
+            "name": "BluejackBot Dashboard",
+            "description" : "Line BOT Website Management Dashboard",
+            "languages": ["Typescript"],
+            "link" : "https://github.com/yihao2000/bluejackbotdashboard",
+            "type" : "Mobile App"
+        },
+        {
+            "id": 13,
+            "name": "BluejackBot API",
+            "description" : "Line BOT Website API",
+            "languages": ["ExpressJS"],
+            "link" : "https://github.com/yihao2000/bluejackbotapi",
+            "type" : "Website API"
         }
     ]
 }
