@@ -20,7 +20,7 @@ export default function ProjectCard(props: { data: Project }) {
   return (
     <Card
       className={clsx(
-        "max-w-[400px] hover:cursor-pointer p-2 min-w-[400px]",
+        "max-w-[370px] hover:cursor-pointer p-2 min-w-[370px]",
         styles.zoom,
         styles.gloweffect
       )}
@@ -35,6 +35,7 @@ export default function ProjectCard(props: { data: Project }) {
             }}
           >
             <span
+              className="text-sm"
               style={{
                 fontWeight: "bold",
               }}
